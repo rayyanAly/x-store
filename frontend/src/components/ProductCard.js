@@ -8,7 +8,7 @@ const ProductCard = ({ product }) => {
 			as={RouterLink}
 			to={`/product/${product._id}`}
 			_hover={{ textDecor: 'none' }}>
-			<Box borderRadius='lg' bgColor='gray' _hover={{ shadow: 'md' }}>
+			<Box borderRadius='lg' bgColor='white' _hover={{ shadow: 'md' }}>
 				<Image
 					src={product.image}
 					alt={product.name}
@@ -26,7 +26,7 @@ const ProductCard = ({ product }) => {
 					<Flex alignItems='center' justifyContent='space-between'>
 						<Rating value={product.rating} color='yellow.500' />
 
-						<Text fontSize='2xl' fontWeight='bold' color='teal.700'>
+						<Text fontSize='2xl' fontWeight='bold' color='blue.600'>
 							₹{product.price}
 						</Text>
 					</Flex>

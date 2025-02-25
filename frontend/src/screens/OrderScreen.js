@@ -168,7 +168,7 @@ const OrderScreen = () => {
 					{/* Column 2 */}
 					<Flex
 						direction='column'
-						bgColor='gray.800'
+						bgColor='white'
 						justifyContent='space-between'
 						py='8'
 						px='8'

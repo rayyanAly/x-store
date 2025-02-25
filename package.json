@@ -1,5 +1,5 @@
 {
-	"name": "rststore",
+	"name": "x-store",
 	"type": "module",
 	"version": "1.0.0",
 	"description": "",
@@ -14,13 +14,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "git+ssh:/git@github.com:rayyanAly/x-store.git"
 	},
-	"author": "",
+	"author": "RayyanAly",
 	"license": "ISC",
-	"bugs": {
+	"bugs": { 
+		"url":"https://github.com/rayyanAly/x-store/issues"
 	},
-	"homepage": "",
+	"homepage": "https://github.com/rayyanAly/x-store/issues#readme",
 	"dependencies": {
 		"bcryptjs": "^2.4.3",
 		"colors": "^1.4.0",

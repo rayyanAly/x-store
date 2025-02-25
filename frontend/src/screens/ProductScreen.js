@@ -99,7 +99,7 @@ const ProductScreen = () => {
 								as='h5'
 								fontSize='4xl'
 								fontWeight='bold'
-								color='teal.200'
+								color='teal.600'
 								my='5'
 								mb='4'>
 								₹{product.price}
@@ -140,7 +140,7 @@ const ProductScreen = () => {
 
 							<Button
 								onClick={addToCartHandler}
-								bg='white'
+								bg='gray.800'
 								colorScheme='teal'
 								my='2'
 								textTransform='uppercase'
@@ -154,7 +154,7 @@ const ProductScreen = () => {
 					{/* Review Display and Form */}
 					<Box
 						p='10'
-						bgColor='gray.600'
+						bgColor='white'
 						rounded='md'
 						mt='10'
 						borderColor='gray.300'>
@@ -167,7 +167,7 @@ const ProductScreen = () => {
 						)}
 
 						{product.reviews && product.reviews.length !== 0 && (
-							<Box p='4' bgColor='gray.700' rounded='md' mb='1' mt='5'>
+							<Box p='4' bgColor='white' rounded='md' mb='1' mt='5'>
 								{product.reviews.map((review) => (
 									<Flex direction='column' key={review._id} mb='5'>
 										<Flex justifyContent='space-between'>

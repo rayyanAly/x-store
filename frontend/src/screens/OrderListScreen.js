@@ -50,7 +50,7 @@ const OrderListScreen = () => {
 			) : error ? (
 				<Message type='error'>{error}</Message>
 			) : (
-				<Box bgColor='gray.800' rounded='lg' shadow='lg' px='5' py='5'>
+				<Box bgColor='white' rounded='lg' shadow='lg' px='5' py='5'>
 					<Table variant='striped' colorScheme='gray' size='sm'>
 						<Thead>
 							<Tr>

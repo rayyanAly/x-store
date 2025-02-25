@@ -74,7 +74,7 @@ const CartScreen = () => {
 										py='4'
 										px='2'
 										rounded='lg'
-										_hover={{ bgColor: 'gray.500' }}
+										_hover={{ bgColor: 'gray.50' }}
 										templateColumns='1fr 4fr 2fr 2fr 2fr'>
 										{/* Product Image */}
 										<Image
@@ -124,7 +124,7 @@ const CartScreen = () => {
 							{/* COLUMN 2 */}
 							<Flex
 								direction='column'
-								bgColor='gray'
+								bgColor='gray.200'
 								rounded='md'
 								padding='5'
 								height='48'
@@ -134,7 +134,7 @@ const CartScreen = () => {
 									{cartItems.reduce((acc, currVal) => acc + +currVal.qty, 0)}{' '}
 									items)
 								</Heading>
-								<Text fontWeight='bold' fontSize='3xl' color='blackAlpha.800' mb='4'>
+								<Text fontWeight='bold' fontSize='3xl' color='blue.600' mb='4'>
 									₹
 									{cartItems.reduce(
 										(acc, currVal) => acc + currVal.price * +currVal.qty,
@@ -147,7 +147,7 @@ const CartScreen = () => {
 									disabled={cartItems.length === 0}
 									size='lg'
 									colorScheme='teal'
-									bgColor='white'
+									bgColor='gray.800'
 									onClick={checkoutHandler}>
 									Proceed to checkout
 								</Button>

@@ -28,7 +28,7 @@ const App = () => {
 				direction='column'
 				py='6'
 				px='6'
-				bgColor='whiteAlpha.300'>
+				bgColor='gray.200'>
 				<Routes>
 					<Route path='/' element={<HomeScreen />} />
 					<Route path='/product/:id' element={<ProductScreen />} />
