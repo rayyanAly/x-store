@@ -67,7 +67,7 @@ const OrderScreen = () => {
 	) : (
 		<>
 			<Flex w='full' py='5' direction='column'>
-				<Grid templateColumns='3fr 2fr' gap='20'>
+				<Grid templateColumns={["1fr", "1fr", "1fr 1fr", "3fr 2fr"]} gap='20'>
 					{/* Column 1 */}
 					<Flex direction='column'>
 						{/* Shipping */}

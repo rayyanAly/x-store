@@ -60,7 +60,7 @@ const CartScreen = () => {
 							</Link>
 						</Message>
 					) : (
-						<Grid templateColumns='4fr 2fr' gap='10' w='full'>
+						<Grid templateColumns={["1fr", "1fr", "1fr 1fr", " 4fr 2fr"]}gap='10' w='full'>
 							{/* COLUMN 1 */}
 							<Flex direction='column'>
 								{cartItems.map((item) => (

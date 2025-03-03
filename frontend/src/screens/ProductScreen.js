@@ -75,7 +75,11 @@ const ProductScreen = () => {
 				<Message type='error'>{error}</Message>
 			) : (
 				<>
-					<Grid templateColumns='5fr 4fr 3fr' gap='10'>
+					<Grid 
+  templateColumns={["1fr", "1fr", "1fr 1fr", "5fr 4fr 3fr"]} 
+  gap={[5, 6, 8, 10]}
+>
+
 						{/* Column 1 */}
 						<Image src={product.image} alt={product.name} borderRadius='md' />
 

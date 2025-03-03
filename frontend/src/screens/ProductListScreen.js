@@ -103,6 +103,7 @@ const ProductListScreen = () => {
 				<Message type='error'>{error}</Message>
 			) : (
 				<Box bgColor='white' rounded='lg' shadow='lg' px='5' py='5'>
+					<Flex overflowX="auto">
 					<Table variant='striped' colorScheme='gray' size='sm'>
 						<Thead>
 							<Tr>
@@ -143,6 +144,7 @@ const ProductListScreen = () => {
 							))}
 						</Tbody>
 					</Table>
+					</Flex>
 				</Box>
 			)}
 		</>

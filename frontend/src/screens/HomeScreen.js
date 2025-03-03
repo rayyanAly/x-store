@@ -27,7 +27,7 @@ const HomeScreen = () => {
 			) : error ? (
 				<Message type='error'>{error}</Message>
 			) : (
-				<Grid templateColumns='1fr 1fr 1fr 1fr' gap='8'>
+				<Grid templateColumns={["1fr", "2fr", "repeat(2, 1fr)", "repeat(4, 1fr)"]} gap='8'>
 					{products.map((prod) => {
 						return <ProductCard key={prod._id} product={prod} />;
 					})}

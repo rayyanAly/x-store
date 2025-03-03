@@ -56,7 +56,7 @@ const PlaceOrderScreen = () => {
 		<Flex w='full' direction='column' py='5'>
 			<CheckoutSteps step1 step2 step3 step4 />
 
-			<Grid templateColumns='3fr 2fr' gap='20'>
+			<Grid templateColumns={["1fr", "1fr", "1fr 1fr", "3fr 2fr"]} gap='20'>
 				{/* Column 1 */}
 				<Flex direction='column'>
 					{/* Shipping */}
