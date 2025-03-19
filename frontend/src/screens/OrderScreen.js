@@ -242,7 +242,7 @@ const OrderScreen = () => {
 									<PayPalScriptProvider
 										options={{
 											clientId:
-												'Aa3pXmICMqRCHEm_RKH_FMZpZskoH882PQumsuLrCZTdz3KOqnfmRIw0VsaHoOLL2isDJcyqoCQ5Vpac',
+												'AUJrAoBJTDtmwoQ9Y5_4selez9lt-we1Zoq-aThB-Koe6rxY4y3R9KlVq0uYuK6x_KJfbysef6QdEi0V',
 											components: 'buttons',
 										}}>
 										<PayPalButtons
